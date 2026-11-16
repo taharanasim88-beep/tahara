@@ -1,22 +1,20 @@
-alert("hello world")
+
+let count = 0;
+
+function increaseCount() {
+
+    count++;
+
+    document.getElementById("counter").innerText = count;
+
+}
 
 
 
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// setTimeout(()=>{
-//     console.log("good morning");
-// }, 2000)
+function resetCount() {
 
+    count = 0;
 
-// let num = 10;
-// let num2 = 20;
-//   if(num > num2){
-//     console.log("num is greater than num2");
-//   }
+    document.getElementById("counter").innerText = count;
 
-
-
-let num= 0;
-let counter = document.getElementById("myButton");
-
-document.getElementById
+}
